@@ -1,8 +1,10 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-import ApplicationShell from '@/components/ApplicationShell.vue'
+import CustomButton from '../components/CustomButton/CustomButton.vue'
 </script>
 
 <template>
-  <ApplicationShell />
+  <div class="flex flex-col">
+    <h1 class="text-4xl">Look at my custom Button</h1>
+    <CustomButton text="Click Me" />
+  </div>
 </template>

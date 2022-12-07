@@ -429,18 +429,18 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 import { Dialog, DialogPanel, TransitionChild, TransitionRoot } from '@headlessui/vue'
-import brandSrc from '@/assets/brand.svg'
+import brandSrc from '../assets/brand.svg'
 import { ChevronUpIcon } from '@heroicons/vue/24/solid'
 import { Bars3Icon, MagnifyingGlassIcon, XMarkIcon } from '@heroicons/vue/24/outline'
-import IconChat from '@/components/icons/IconChat.vue'
-import IconPublic from '@/components/icons/IconPublic.vue'
-import IconContacts from '@/components/icons/IconContacts.vue'
-import IconHelpCenter from '@/components/icons/IconHelpCenter.vue'
-import IconInsertChart from '@/components/icons/IconInsertChart.vue'
-import IconIntegrationInstructions from '@/components/icons/IconIntegrationInstructions.vue'
-import IconAlignLeft from '@/components/icons/IconAlignLeft.vue'
-import IconAlignCenter from '@/components/icons/IconAlignCenter.vue'
-import IconAlignJustify from '@/components/icons/IconAlignJustify.vue'
+import IconChat from './icons/IconChat.vue'
+import IconPublic from './icons/IconPublic.vue'
+import IconContacts from './icons/IconContacts.vue'
+import IconHelpCenter from './icons/IconHelpCenter.vue'
+import IconInsertChart from './icons/IconInsertChart.vue'
+import IconIntegrationInstructions from './icons/IconIntegrationInstructions.vue'
+import IconAlignLeft from './icons/IconAlignLeft.vue'
+import IconAlignCenter from './icons/IconAlignCenter.vue'
+import IconAlignJustify from './icons/IconAlignJustify.vue'
 
 const user = {
   name: 'Emily Selman',
